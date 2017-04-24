@@ -15,7 +15,7 @@ we present an efficient implementation of Tikhonov regularization for solving th
 The Matlab codes used for creating the graphs in the paper are available in this repository. Read the file Contents.m for 
 more information. To get started run PaperGraphs.m which generates most of the figures available in the paper. The codes are
 written in such a way that the thermal model can be changes relatively easily. The thermal parameters are seperated from the 
-rest of the solution software and the asdsumption is that a function
+rest of the solution software and the assumption is that a function
 
   >> [K,A]=ThermalModel(X,Z,T)
   
